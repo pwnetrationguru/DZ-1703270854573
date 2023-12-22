@@ -1,0 +1,10 @@
+dev:
+  commands:
+  - command: npm i
+    directory: node-js-sample
+    name: install cmd
+  name: ""
+  packages:
+  - nixpkgs.nodejs_18
+  repos:
+  - https://github.com/heroku/node-js-sample
